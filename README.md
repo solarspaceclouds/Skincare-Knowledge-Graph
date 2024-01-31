@@ -26,10 +26,10 @@ In recent months, I have developed a slight obsession with skincare products whi
 1. webscraping_insidecoder.ipynb scrapes the products details and saved in many_products.csv. Product details were scraped according to the brands defined in the 'brands' variable near the beginning of the notebook (after import statements)
    - If you would like to scrape your own data, please modify the 'brands' variable or code as desired and output the desired information as structured in many_products.csv
    - Otherwise, if you would like to jump straight to the knowledge graph, you don't have to explore this notebook and can jump straight to the knowledge_graph_creation.ipynb. (many_products.csv has been included in this repository for reference for this purpose.)  
-2. knowledge_graph_creation.ipynb uses the scraped data in many_products.csv to build a finalised knowledge graph.
+2. knowledge_graph_creation.ipynb uses the scraped data in many_products.csv to build a finalised knowledge graph. (on http://127.0.0.1:8050/) 
 3. web_ui_modifications_variations.ipynb has many variations of the knowledge graph that I tried out in the process of trying to build and settle on the finalised knowledge graph. Feel free to explore these if you are interested. 
 
-## How to use:
+## How to use the knowledge graph visualisation:
 1. In the search bar, type in the search term (brand name/ingredient name/specific product name). A drop-down list of possible selections will be constantly updated according to your typed input. Select your desired ingredient.
 2. Then in the search bar, continue to search and select the next product to see the interaction effects among the products. 
 

@@ -23,9 +23,11 @@ In recent months, I have developed a slight obsession with skincare products whi
 4. The list of active ingredients identified in this project are not exhaustive because it is based on my own basic knowledge and research. All the predefined rules of the interaction effects between different active ingredients are based on a consolidation of information from online articles.
 
 ## File Details
-webscraping_insidecoder.ipynb scrapes the products details and saved in many_products.csv. Product details were scraped according to the brands defined in the 'brands' variable near the beginning of the notebook (after import statements)
-knowledge_graph.ipynb uses the scraped data in many_products.csv to build a finalised knowledge graph.
-web_ui_modifications_variations.ipynb has variations of the knowledge graph that I tried out in the process of trying to build and settle on the finalised knowledge graph.
+1. webscraping_insidecoder.ipynb scrapes the products details and saved in many_products.csv. Product details were scraped according to the brands defined in the 'brands' variable near the beginning of the notebook (after import statements)
+   - If you would like to scrape your own data, please modify the 'brands' variable or code as desired and output the desired information as structured in many_products.csv
+   - Otherwise, if you would like to jump straight to the knowledge graph, you don't have to explore this notebook and can jump straight to the knowledge_graph_creation.ipynb. (many_products.csv has been included in this repository for reference for this purpose.)  
+2. knowledge_graph_creation.ipynb uses the scraped data in many_products.csv to build a finalised knowledge graph.
+3. web_ui_modifications_variations.ipynb has many variations of the knowledge graph that I tried out in the process of trying to build and settle on the finalised knowledge graph. Feel free to explore these if you are interested. 
 
 ## How to use:
 1. In the search bar, type in the search term (brand name/ingredient name/specific product name). A drop-down list of possible selections will be constantly updated according to your typed input. Select your desired ingredient.
@@ -57,7 +59,7 @@ The chosen brand names scraped for the purpose of this project were:
 
 
 ### Additional notes: 
-
-Initially, I planned to obtain active ingredients interaction information via extracting insights from the transcripts of the videos made by the popular dermatologist youtube channel: Doctorly. However, this endeavour which involved various steps such as transcript scraping, named entity recognition and (active ingredients interaction effects) insights extraction proved to be fairly challenging. It posed a significant distraction to the main focus of this project, which was to understand how to create a knowledge graph. Hence, I settled on the method of gathering information from online articles to identify the active ingredients and draft up predefined interaction rules to the best of my knowledge and understanding. In future, it would be beneficial to verify the information in this portion.
+- This skincare knowledge graph is not deployed and is only for personal use/research purposes because of the lack of verification of correctness of the displayed information as explained in the Important Notes/Disclaimers section above.
+- Initially, I planned to obtain active ingredients interaction information via extracting insights from the transcripts of the videos made by the popular dermatologist youtube channel: Doctorly. However, this endeavour which involved various steps such as transcript scraping, named entity recognition and (active ingredients interaction effects) insights extraction proved to be fairly challenging. It posed a significant distraction to the main focus of this project, which was to understand how to create a knowledge graph. Hence, I settled on the method of gathering information from online articles to identify the active ingredients and draft up predefined interaction rules to the best of my knowledge and understanding. In future, it would be beneficial to verify the information in this portion.
 
 For more detailed explanation, check out the Medium article coming soon!
